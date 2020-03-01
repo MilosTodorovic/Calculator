@@ -81,6 +81,14 @@ public class CalculatorTest {
     }
     
     @Test
+    public void testSquareRoot(){
+        int a = 25;
+        double expectedResult = 5;
+        double actualResult = Calculator.squareRoot(a);
+        assertEquals(expectedResult, actualResult, 2);
+    }
+    
+    @Test
     public void testDivide(){
         int a = 15;
         int b = 3;
