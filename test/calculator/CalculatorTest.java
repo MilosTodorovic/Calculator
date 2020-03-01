@@ -64,7 +64,6 @@ public class CalculatorTest {
     }
     
     @Test
-    @Ignore("not yet implemented")
     public void testMultiply(){
         int a = 5;
         int b = 3;

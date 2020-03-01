@@ -1,5 +1,7 @@
 package calculator;
 
+import static java.lang.Math.sqrt;
+
 public class Calculator {
 
     public static int add (int a, int b){
@@ -12,8 +14,7 @@ public class Calculator {
     }
     
     public static int multiply (int a, int b){
-        //not yet implemented
-        return 0;
+        return a * b;
     }
     
     public static int divide (int a, int b){
@@ -24,8 +25,8 @@ public class Calculator {
         return a*a;
     }
     
-    public static void squareRoot(int a){
-        //not yet implemented
+    public static double squareRoot(int a){
+        return sqrt(a);
     }
     
 }
